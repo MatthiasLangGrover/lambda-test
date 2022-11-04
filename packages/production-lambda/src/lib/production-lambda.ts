@@ -1,3 +1,3 @@
 export function productionLambda(): string {
-  return 'production-lambda';
+  return 'production-lambda v2.0.0';
 }
