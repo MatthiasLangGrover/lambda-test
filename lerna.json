@@ -1,0 +1,6 @@
+{
+  "$schema": "node_modules/lerna/schemas/lerna-schema.json",
+  "useWorkspaces": false,
+  "version": "independent",
+  "packages": ["packages/staging-lambda", "packages/production-lambda"]
+}
