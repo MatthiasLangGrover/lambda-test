@@ -14,7 +14,13 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@lambda-test/production-lambda": [
+        "packages/production-lambda/src/index.ts"
+      ],
+      "@lambda-test/shared": ["packages/shared/src/index.ts"],
+      "@lambda-test/staging-lambda": ["packages/staging-lambda/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
